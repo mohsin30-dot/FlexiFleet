@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FlexiFleet</string>
+    <string name="food_is_an_art">Food is an Art</string>
+    <string name="welcome_to_homescreen">Welcome to HomeScreen</string>
 </resources>
