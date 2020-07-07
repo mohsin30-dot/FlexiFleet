@@ -1,4 +1,4 @@
-package com.example.flexifleet;
+package com.example.flexifleet.Activities;
 
 
 import androidx.annotation.Nullable;
@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.flexifleet.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -22,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this,HomeScreen.class);
+                Intent intent = new Intent(LoginActivity.this, HomeScreen.class);
                 startActivity(intent);
 
             }
